@@ -95,7 +95,7 @@ def scrap(driver):
 
 def init():
   global outputFile
-  outputFile = open('resultados-secop.csv','w')
+  outputFile = open('resultados-secop.csv','w', encoding="utf-8")
   writeOutputFile(headerColumns)
 
 if __name__ == '__main__':
